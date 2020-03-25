@@ -69,6 +69,7 @@ header nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .banner h2{
     color: #fff;
@@ -357,7 +358,7 @@ p{
     margin: 0 30px;
 }
 .socialnet a .social{
-    font-size: 35px;
+    font-size: 30px;
     max-width: 40px;
     color: #b3c100;
 }
@@ -375,7 +376,7 @@ p{
         display: block;
         position: relative;
         width: 30px;
-        height: 30px;
+        height: 20px;
         cursor: pointer;
     }
     #burger::before{
@@ -386,7 +387,7 @@ p{
         height: 2px;
         background: #fff;
         z-index: 1;
-        box-shadow: 0 10px 0 #fff;
+        
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s;
@@ -401,6 +402,7 @@ p{
         height: 2px;
         background: #fff;
         z-index: 1;
+        box-shadow: 0 10px 0 #fff;
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s;
@@ -409,10 +411,11 @@ p{
     }
     .sticky #burger::before{
         background: #34675c;
-        box-shadow: 0 10px 0 #34675c;
+        
     }
     .sticky #burger::after{
         background: #34675c;
+        box-shadow: 0 10px 0 #34675c;
     }
     header{
         padding: 5px 50px;
@@ -434,7 +437,7 @@ p{
     .active{
         position: absolute;
         width: 100vh;
-        top: 9vh;
+        top: 12vh;
         left: 0;
         display: flex;
         flex-direction: column;
@@ -447,12 +450,48 @@ p{
     header .active a{
         position: relative;
         display: inline-block;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 14px;
+        padding-bottom: 14px;
         padding-left: 40px;
         padding-right: 40px;
         margin: 3px 0;
         font-size: 20px;
         align-self: center;
     }
+    .banner{
+        background-position: center;
+    }
+    .banner h2{
+        font-size: 60px;
+        padding: 0 50px;
+    }
+    .sec{
+        padding: 100px 50px 50px 50px;
+    }
+    .services .box{
+        width: 85%;
+    }
+    .stats{
+        padding-top: 250px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .contactform .row .inputb,
+    .contactform .row .inputb2{
+        width: 100%;
+        margin: 0;
+    }
+    .socialnet{
+        margin: 0;
+    }
+    .socialnet i{
+        font-size: 1px;
+    }
+    h3{
+        font-size: 36px;
+    }
+}
+@media (max-width: 415px){
+    
 }
