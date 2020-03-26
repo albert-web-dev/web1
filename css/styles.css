@@ -448,12 +448,13 @@ p{
     .active{
         position: absolute;
         width: 100vh;
-        top: 12vh;
+        top: 13vh;
         left: 0;
         display: flex;
         flex-direction: column;
         background-color: #b3c100;
         visibility: visible;
+        z-index: -1;
     }
     .active a:hover{
         opacity: 0.5;
@@ -461,13 +462,14 @@ p{
     header .active a{
         position: relative;
         display: inline-block;
-        padding-top: 14px;
+        padding-top: 18px;
         padding-bottom: 14px;
         padding-left: 40px;
         padding-right: 40px;
         margin: 3px 0;
         font-size: 20px;
         align-self: center;
+        
     }
     .banner{
         background-position: center;
