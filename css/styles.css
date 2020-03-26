@@ -448,7 +448,7 @@ p{
     .active{
         position: absolute;
         width: 100vh;
-        top: 13vh;
+        top: 10vh;
         left: 0;
         display: flex;
         flex-direction: column;
