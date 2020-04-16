@@ -13,10 +13,14 @@ body{
     min-width: 100%;
     
 }
+.min-cont{
+    min-width: 350px;
+}
 header{
     position: fixed;
     top: 0;
     left: 0;
+    height: 17vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -34,6 +38,7 @@ header{
     background: #b3c100;
     border-bottom: 1px solid rgba(0,0,0, .1);
 }
+
 header .logo{
     position: relative;
     font-weight: 700;
@@ -439,7 +444,7 @@ p{
         top: 60px;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         text-align: center;
         overflow: auto;
         visibility: hidden;
@@ -447,7 +452,7 @@ p{
     }
     .active{
         position: absolute;
-        width: 100vh;
+        width: 50%;
         top: 10vh;
         left: 0;
         display: flex;
@@ -505,3 +510,4 @@ p{
         font-size: 36px;
     }
 }
+
